@@ -9,32 +9,46 @@
     </head>
     <body>
         <header>
-            </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="mailto:desi.dmt@gmail.com?Subject=Hello!" target="_blank">Hire me!</a></li>
                 </ul>
             </nav>
         </header>
 
         <div class="container">
             <div id="skills">
-                <h1>404 Error</h1>
-                <h1>File not found (yet)</h1>
+                <h1 id="js" onmouseover="changeText()" onmouseout="defaultText()" />404 Error File not found</h1>
             </div>
         </div>
         <footer>
             <div id="contact">
                 <p>let's talk</p>
-                <div class="social"><a href="mailto:desi.dmt@gmail.com?Subject=Hello!" target="_blank"><img src="http://i.imgur.com/z5ieiFl.png" alt="email" /></a></div>
-                <div class="social"><a href="https://twitter.com/codedesi" target="_blank"><img src="http://i.imgur.com/la1VqTK.png" alt="twitter" /></a></div>
-                <div class="social"><a href="https://github.com/ddesi/" target="_blank"><img src="http://i.imgur.com/AA9tVar.png" alt="github" /></a></div>
+                <div class="social"><a href="https://github.com/ddesi/" target="_blank"><img src="http://i.imgur.com/76bYKi3.png" alt="Github" /></a></div>
+                <div class="social"><a href="https://twitter.com/codedesi" target="_blank"><img src="http://i.imgur.com/qIdFcEE.png" alt="Twitter" /></a></div>
+                <div class="social"><a href="https://de.linkedin.com/in/desid" target="_blank"><img src="http://i.imgur.com/VXWHTdy.png" alt="Linkedin" /></a></div>
             </div>
         </footer>
 
+        <script type="text/javascript">
+     
+        function changeText() {
+            var display = document.getElementById('js');
+            display.innerHTML = "not yet :p";
+        }
+             
+        function defaultText() {
+            var display = document.getElementById('js');
+            display.innerHTML = "404 Error File not found";
+        }
+
+        // not exactly what i was going for but ok haha
+         
+    </script>
     </body>
 
 </html>
